@@ -1,0 +1,50 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --main-color: #54b689;
+    --main-text-color: #FFF;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color:#293544;
+    --about-bg-color:#111821;
+}
+
+/* General */
+.highlight {
+    color: var(--main-color);
+}
+
+/* Containers */
+#container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color);
+}
+
+#bio-container {
+    flex: 1 1 20%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bio-border-color);
+}
+
+#about-container {
+    flex: 1 1 80%;
+    height: 100%;
+    background-color: var(--about-bg-color);
+    padding: 50px;
+}
+
+#bio-container img{
+    width: 150px;
+    height: 150px;
+}
