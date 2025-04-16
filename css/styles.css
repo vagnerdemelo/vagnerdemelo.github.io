@@ -121,7 +121,7 @@
 }
 
 .description {
-    max-width: 50%;
+    max-width: 100%;
     margin-bottom: 10px;
     font-size: 17px;
 }
@@ -234,4 +234,13 @@
         font-size: 60px;
     }
 
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--main-color);
+    color: var(--main-text-color);
 }
